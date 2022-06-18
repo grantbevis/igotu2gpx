@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  igotu2gpx:
+    container_name: igotu2gpx
+    image: ghcr.io/grantbevis/igotu2gpx
+    privileged: true
+    volumes:
+      - /dev:/dev
